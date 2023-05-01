@@ -1,0 +1,156 @@
+* {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+#nav {
+    text-align: right;
+    padding: 10px;
+
+}
+
+#nav a {
+    text-decoration: none;
+    font: 13px/27px Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#nav a :hover {
+    text-decoration: underline;
+}
+
+#nav .nombre img {
+    max-width: 32px;
+    border-radius: 30px;
+    vertical-align: middle
+}
+
+#nav img {
+    max-width: 22px;
+    vertical-align: middle
+}
+
+#logo img {
+    max-width: 280px
+}
+
+
+#logo {
+
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cajatexto {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#input-search {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 574px;
+    height: 42px;
+    background-image: url('https://www.google.com/images/icons/product/search-512.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+
+
+
+#input-search:hover {
+    border: 1px solid #9AA0A6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-search {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lucky:hover {
+    border-color: rgb(212, 212, 221);
+}
+
+#search:hover {
+    border-color: rgb(212, 212, 221);
+}
+
+#lucky,
+#search {
+    position: relative;
+    padding: 16px;
+    text-decoration: none;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    border-radius: 7px;
+}
+
+.colom {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.foot {
+    background-color: aqua;
+}
+
+
+
+
+
+footer {
+    margin-top: 280px;
+}
+
+
+
+
+
+.footer-left {
+    display: inline;
+    text-align: left;
+    padding-left: 20px;
+    float: left;
+    color: #70757a;
+    padding-top: 10px;
+
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    display: inline;
+    justify-self: right;
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-link {
+    display: inline;
+    margin: 10px 8px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+footer ul li {
+    display: inline;
+}
